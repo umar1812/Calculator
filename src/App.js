@@ -38,13 +38,13 @@ function App() {
             <button className="operation" onClick={clear}>AC </button>
             <button className="operation" onClick={back}>C</button>
             <button onClick={handleVal} value="%" className="operation">%</button>
-            <button onClick={handleVal} value="/" className="operation">/</button>
+            <button onClick={handleVal} value="/" className="operation">&divide;</button>
           </div>
           <div>
             <button onClick={handleVal} value="7" className="num">7</button>
             <button onClick={handleVal} value="8" className="num">8</button>
             <button onClick={handleVal} value="9" className="num">9</button>
-            <button onClick={handleVal} value="*" className="operation">*</button>
+            <button onClick={handleVal} value="*" className="operation">x</button>
           </div>
           <div>
             <button onClick={handleVal} value="4" className="num">4</button>
